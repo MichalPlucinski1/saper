@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ClearScreen.cpp" />
     <ClCompile Include="saper.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClearScreen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
