@@ -4,9 +4,6 @@
 #include <iostream>
 #include "ClearScreen.h"
 #include "Cell.h"
-#include <conio.h>
-#include <stdio.h>
-#include <string.h>
 using namespace std;
 
 
@@ -49,4 +46,5 @@ int main()
         ClearScreen();
         Cell::showTable();
     }
+    return 0;
 }
